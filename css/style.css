@@ -1,0 +1,92 @@
+@font-face {
+  font-family: myFont;
+  src: url(../fonts/ComforterBrush-Regular.ttf);
+}
+
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  font-family: myFont;
+  overflow-x: hidden;
+  background-image: url(../img/graphics/alaa.png);
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-blend-mode: soft-light;
+}
+
+.wish {
+  display: flex;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  height: 400px;
+  width: 400px;
+  /* background-image: url(../img/tsakblobs/5.svg); */
+  background-size: cover;
+}
+.wish .title {
+  color: white;
+  font-size: xx-large;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -87%);
+  text-align: center;
+}
+.cop-del {
+  display: flex;
+  color: white;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, 50%);
+  width: 30%;
+  justify-content: space-around;
+}
+.cop-del img {
+  width: 90px;
+  height: 90px;
+}
+
+.wisher {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  height: 200px;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.wisher img {
+  width: 200px;
+  margin-top: 8rem;
+}
+
+.wisher input {
+  width: 80%;
+  height: 30%;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: transparent;
+  color: green;
+  border-radius: 10px 5px 5px 5px;
+  margin-top: 5rem;
+  margin-left: 2rem;
+}
+
+.finished {
+  text-decoration: line-through;
+}
+
+.cloud {
+  background-image: url(../img/graphics/cloud.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+  width: 300px;
+}
